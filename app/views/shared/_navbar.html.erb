@@ -7,15 +7,22 @@
     <%# <div class="name-title">
       <h2>NAVBAR</h2>
     </div> %>
-
-    <div class="navbarr">
+ <%# style="background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.3)), url(https://i.ibb.co/qyFsg3c/CPPC-AKT-2.jpg);" %>
+    <div class="navbarr" >
       <input type="checkbox" class="menu-btn" id="menu-btn" />
+      <%# <div class="tabsnbtn"> %>
+      <ul class="tabs" style="background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.3)), url(https://i.ibb.co/qyFsg3c/CPPC-AKT-2.jpg);">
 
-      <ul class="tabs">
 
 
+        <%# <% class="nav-link"><%= link_to "HOME", root_path %>
+        <li class="nav-link"><%= link_to "Case Studies", root_path %></li>
+        <li class="nav-link"><%= link_to "Sustainability", root_path %></li>
+        <li class="nav-link"><%= link_to "News", root_path %></li>
+        <li class="nav-link"><%= link_to "Our History", root_path %></li>
+        <li class="nav-link"><%= link_to "Contact", root_path %></li>
 
-        <li class="nav-link"><%= link_to "HOME", root_path %></li>
+
 
 
         <%# <li><%= link_to "BOOK", book_path</li>  %>
@@ -26,11 +33,17 @@
 
         <%# LOGIN GOES HERE %>
 
-        <li class="nav-link-btn"><%= link_to "BOOK NOW", book_path, class:"big-btn" %></li>
 
 
       </ul>
-      <label for="menu-btn" class="menu-icon"><span class="nav-icon"></span></label>
+      <label for="menu-btn" class="menu-icon">
+      <%# <span class="nav-icon"></span> %>
+        <%# <img src="https://i.ibb.co/8mKWcCj/CPPC-MENU-ICON-HOMEPAGE-copy.png", class="nav-icon"> %>
+        <div class="nav-icon">
+<%# style="background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.3)), url(https://i.ibb.co/8mKWcCj/CPPC-MENU-ICON-HOMEPAGE-copy.png);" %>
+        </div>
+      </label>
+      <%# </div> %>
 
     </div>
   </div>
