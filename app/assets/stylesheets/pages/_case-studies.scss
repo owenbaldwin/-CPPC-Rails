@@ -1,0 +1,72 @@
+.case-studies-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.case-studies-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+  h1 {
+    color: $coral;
+    margin-left: 42px;
+  }
+}
+
+
+.case-studies-list {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.case-study {
+  width: calc(100%/3);
+  height: 50%;
+  background-size: cover;
+  background-position:  center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h2, a {
+    // display: none;
+    opacity: 0;
+    margin: 0px;
+    color: white;
+    transition: 0.4s;
+      transition-timing-function: ease;
+  }
+  transition: 0.4s;
+  transition-timing-function: ease;
+}
+
+.case-study-filter {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  transition: 0.4s;
+    transition-timing-function: ease;
+}
+
+.case-study:hover {
+  transition: 0.4s;
+  transition-timing-function: ease;
+  .case-study-filter {
+    background-color: rgba($color: #000000, $alpha: 0.5)
+  }
+  h2, a {
+    // display: block;
+    opacity: 1;
+  }
+}
