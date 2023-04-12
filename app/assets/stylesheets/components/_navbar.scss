@@ -45,9 +45,9 @@
   display: none;
 }
 
-.user-btn:checked~.tabs {
-  max-height: 340px;
-}
+// .user-btn:checked~.tabs {
+//   max-height: 100vh;
+// }
 
 // .user-btn:checked~.navbar-outer {
 //   padding-bottom: 34px;
@@ -156,6 +156,7 @@
 
 .navbarr {
   width: 100%;
+  height: 100vh;
   display: flex;
   justify-content: flex-end;
   padding: 0;
@@ -163,20 +164,35 @@
   position: sticky;
   top: 0px;
   z-index: 10;
+  margin-bottom: 0px;
 }
 
 .tabs {
   margin: 0;
   max-height: 0;
   transition: max-height .2s ease-in-out;
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  // justify-content: space-evenly;
+  align-items: center;
+  justify-content: center;
   padding: 0px;
-  margin-bottom: 10px;
+  // margin-bottom: 10px;
+  background-size: cover;
+    background-position: top center;
 }
+
+// .tabsnbtn {
+
+//   display: flex;
+//   flex-direction: column;
+//   align-items: flex-end;
+//   // justify-content: space-evenly;
+//   padding: 0px;
+//   // margin-bottom: 10px;
+//   background-size: cover;
+//   background-position: top center;
+// }
 
 ul {
   overflow: hidden;
@@ -185,7 +201,8 @@ ul {
 .nav-link {
   transition: 0.5s;
   font-family: "Montserrat, sans-serif";
-  font-size: 16px;
+  font-size: 32px;
+  font-weight: bold;
   letter-spacing: 4px;
   display: block;
   text-align: center;
@@ -194,7 +211,7 @@ ul {
   a,
   h5 {
     text-decoration: none;
-    color: green;
+    color: white;
     transition: 0.5s;
     font-family: "Montserrat";
     // text-shadow: 0px 0px 10px $button--color-1;
@@ -202,8 +219,7 @@ ul {
 
   a:hover {
     text-decoration: none;
-    color: white;
-    text-shadow: 0px 0px 5px white;
+    color: $coral;
   }
 }
 
@@ -242,45 +258,57 @@ ul {
 
 .nav-icon {
   // background-image: linear-gradient(to right, #795d33 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%, #795d33 100%);
-  background-color: turquoise;
-  display: block;
-  height: 6px;
-  width: 40px;
+  // background-color: turquoise;
+  // display: block;
+  // height: 6px;
+  // width: 40px;
+  background-size: cover;
+    // background-repeat: no-repeat;
+    background-position: center;
   position: relative;
-  transition: background .4s ease-out;
-  border-radius: 3px;
+  height: 80px;
+  width: 80px;
+  transition: all .5s ease-out;
+  // transition: background .4s ease-out;
+  // border-radius: 3px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://i.ibb.co/8mKWcCj/CPPC-MENU-ICON-HOMEPAGE-copy.png);
 }
 
-.nav-icon::before {
-  background-color: purple;
-  content: "";
-  display: block;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  transition: all .4s ease-out;
-  top: 10px;
-  border-radius: 2px;
-}
+// .nav-icon::before {
+//   background-color: purple;
+//   content: "";
+//   display: block;
+//   height: 100%;
+//   width: 100%;
+//   position: absolute;
+//   transition: all .4s ease-out;
+//   top: 10px;
+//   border-radius: 2px;
+// }
 
-.nav-icon::after {
-  background-color: pink;
-  content: "";
-  display: block;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  transition: all .4s ease-out;
-  top: -10px;
-  border-radius: 2px;
-}
+// .nav-icon::after {
+//   background-color: pink;
+//   content: "";
+//   display: block;
+//   height: 100%;
+//   width: 100%;
+//   position: absolute;
+//   transition: all .4s ease-out;
+//   top: -10px;
+//   border-radius: 2px;
+// }
 
 .menu-btn {
   display: none;
 }
 
 .menu-btn:checked~.tabs {
-  max-height: 540px;
+  max-height: 100vh;
+}
+
+.menu-btn:checked~.tabsnbtn {
+  // background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(https://i.ibb.co/qyFsg3c/CPPC-AKT-2.jpg);
+  background-color: beige;
 }
 
 // .menu-btn:checked~.navbar-outer {
@@ -289,10 +317,16 @@ ul {
 
 .menu-btn:checked~.menu-icon .nav-icon {
   background: transparent;
+  transform: rotate(315deg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://i.ibb.co/3CKNQ8p/CPPC-MENU-ICON-MENU-PAGE-copy.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 80px;
+  width: 80px;
 }
 
 .menu-btn:checked~.menu-icon .nav-icon::before {
-  transform: rotate(-225deg);
   top: 0;
 }
 
