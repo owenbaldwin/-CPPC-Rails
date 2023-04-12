@@ -1,0 +1,38 @@
+
+
+
+<div class="navbar-outer">
+
+  <div class="navbar-inner">
+    <%# <div class="name-title">
+      <h2>NAVBAR</h2>
+    </div> %>
+
+    <div class="navbarr">
+      <input type="checkbox" class="menu-btn" id="menu-btn" />
+
+      <ul class="tabs">
+
+
+
+        <li class="nav-link"><%= link_to "HOME", root_path %></li>
+
+
+        <%# <li><%= link_to "BOOK", book_path</li>  %>
+        <%# <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> %>
+
+
+        <%# LOGIN GOES HERE %>
+
+        <li class="nav-link-btn"><%= link_to "BOOK NOW", book_path, class:"big-btn" %></li>
+
+
+      </ul>
+      <label for="menu-btn" class="menu-icon"><span class="nav-icon"></span></label>
+
+    </div>
+  </div>
+
+</div>
