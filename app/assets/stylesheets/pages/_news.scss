@@ -1,0 +1,10 @@
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin: 24px;
+  width: calc(100%/5);
+}
