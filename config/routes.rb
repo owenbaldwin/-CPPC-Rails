@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   # root "articles#index"
   root to: "pages#home"
   get :akt, to: 'pages#akt'
+  get :happyvalentinesday, to: 'pages#happy_valentines_day'
+
 end
