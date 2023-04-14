@@ -5,4 +5,7 @@ class PagesController < ApplicationController
 
   def akt
   end
+
+  def happy_valentines_day
+  end
 end

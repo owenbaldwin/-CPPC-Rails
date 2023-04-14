@@ -1,0 +1,111 @@
+.valentine-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.valentine-banner {
+  width: 100vw;
+  height: 30%;
+  background-size: cover;
+  // background-repeat: no-repeat;
+  background-position: bottom center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  h1 {
+    font-family: 'Futura';
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+  }
+}
+
+.valentine-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 60%;
+}
+
+
+.valentine-text {
+  width: 60%;
+  height: 100%;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 48px;
+  p {
+    margin: 0px;
+    font-family: 'Sofia Sans';
+    font-size: 18px;
+  }
+}
+
+.valentine-carousel {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-news {
+  width: 90%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  h6 {
+    font-family: 'Futura';
+    color: $coral;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+.more-news-list {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.more-news-card {
+  height: 80%;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  transition: 0.3s;
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    img {
+      height: 80px;
+    }
+    p {
+      margin: 0px 8px;
+      font-family: 'Sofia Sans';
+      font-size: 14px;
+      color: black;
+      font-weight: bold;
+    }
+  }
+}
+
+.more-news-card:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
