@@ -1,51 +1,40 @@
+<!-- Button trigger modal -->
+<div class="nav-container">
+<button type="button" class="nav-btn top-0 end-0 " data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <img src="https://i.ibb.co/8mKWcCj/CPPC-MENU-ICON-HOMEPAGE-copy.png", class="nav-icon">
+
+</button>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://i.ibb.co/qyFsg3c/CPPC-AKT-2.jpg);">
+      <div class="modal-header">
+        <%# <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> %>
+        <button type="button" class="nav-close-btn" data-bs-dismiss="modal" aria-label="Close">
+          <img src="https://i.ibb.co/3CKNQ8p/CPPC-MENU-ICON-MENU-PAGE-copy.png", class="nav-icon">
+        </button>
+      </div>
+      <div class="modal-body">
+        <%# <ul class="tabs"> %>
 
 
 
-<div class="navbar-outer">
-
-  <div class="navbar-inner">
-    <%# <div class="name-title">
-      <h2>NAVBAR</h2>
-    </div> %>
- <%# style="background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.3)), url(https://i.ibb.co/qyFsg3c/CPPC-AKT-2.jpg);" %>
-    <div class="navbarr" >
-      <input type="checkbox" class="menu-btn" id="menu-btn" />
-      <%# <div class="tabsnbtn"> %>
-      <ul class="tabs" style="background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.3)), url(https://i.ibb.co/qyFsg3c/CPPC-AKT-2.jpg);">
-
-
-
-        <%# <% class="nav-link"><%= link_to "HOME", root_path %>
-        <li class="nav-link"><%= link_to "Case Studies", root_path %></li>
-        <li class="nav-link"><%= link_to "Sustainability", root_path %></li>
-        <li class="nav-link"><%= link_to "News", root_path %></li>
-        <li class="nav-link"><%= link_to "Our History", root_path %></li>
-        <li class="nav-link"><%= link_to "Contact", root_path %></li>
+          <%= link_to "Home", root_path %>
+          <%= link_to "Case Studies", root_path %>
+          <%= link_to "Sustainability", root_path %>
+          <%= link_to "News", root_path %>
+          <%= link_to "Our History", root_path %>
+          <%= link_to "Contact", root_path %>
 
 
 
 
-        <%# <li><%= link_to "BOOK", book_path</li>  %>
-        <%# <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button> %>
 
-
-        <%# LOGIN GOES HERE %>
-
-
-
-      </ul>
-      <label for="menu-btn" class="menu-icon">
-      <%# <span class="nav-icon"></span> %>
-        <%# <img src="https://i.ibb.co/8mKWcCj/CPPC-MENU-ICON-HOMEPAGE-copy.png", class="nav-icon"> %>
-        <div class="nav-icon">
-<%# style="background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.3)), url(https://i.ibb.co/8mKWcCj/CPPC-MENU-ICON-HOMEPAGE-copy.png);" %>
-        </div>
-      </label>
-      <%# </div> %>
+        <%# </ul> %>
+      </div>
 
     </div>
   </div>
-
 </div>
