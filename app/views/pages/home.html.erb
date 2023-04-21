@@ -105,7 +105,7 @@
       <h1>News</h1>
     </div>
     <%# https://www.youtube.com/watch?v=kHPm_AlxP7U&t=46s %>
-    <div id="carouselExampleDark" class="carousel carousel-dark slide news-carousel">
+    <div id="carouselExample" class="carousel slide news-carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="cards-wrapper">
@@ -263,11 +263,11 @@
           </div>
         </div>
       </div>
-      <button class="carousel-control-prev right-arrow" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <button class="carousel-control-prev right-arrow" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
         <span class="carousel-control-prev-icon " aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -334,102 +334,79 @@
       <h1>Clients</h1>
     </div>
 
-    <div id="carouselExampleDark" class="carousel carousel-dark slide carousel-narrow">
+    <div id="carouselExample" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="cards-wrapper">
-            <div class="card" style="width: 18rem;">
+            <div class="card client-card">
               <a href="<%= happyvalentinesday_path %>">
                 <img src="https://i.ibb.co/4jMmw6K/Fortnum-and-mason-logo-stacked.png" class="card-img-top" alt="...">
               </a>
             </div>
 
-            <div class="card" style="width: 18rem;">
+            <div class="card client-card">
               <a href="<%= happyvalentinesday_path %>">
                 <img src="https://i.ibb.co/RpPgLwJ/NEAT-Logo-RGB-500x.png" class="card-img-top" alt="...">
               </a>
             </div>
 
-            <div class="card" style="width: 18rem;">
+            <div class="card client-card">
               <a href="<%= happyvalentinesday_path %>">
                 <img src="https://i.ibb.co/9ZyC98F/218864833-104189261952256-8057249394250488165-n.png" class="card-img-top" alt="...">
               </a>
             </div>
 
-            <div class="card" style="width: 18rem;">
+            <div class="card client-card">
               <a href="<%= happyvalentinesday_path %>">
                 <img src="https://i.ibb.co/Wg48gXy/wild-logo-transparent.png" class="card-img-top" alt="...">
               </a>
             </div>
           </div>
         </div>
-
         <div class="carousel-item">
           <div class="cards-wrapper">
-            <div class="card" style="width: 18rem;">
+            <div class="card client-card">
               <a href="<%= happyvalentinesday_path %>">
                 <img src="https://i.ibb.co/HrJg4JX/2x-E-Namsu-Logo-Hi-Res-01-180x.webp" class="card-img-top" alt="...">
               </a>
             </div>
 
-            <div class="card" style="width: 18rem;">
+            <div class="card client-card">
               <a href="<%= happyvalentinesday_path %>">
                 <img src="https://i.ibb.co/HrJg4JX/2x-E-Namsu-Logo-Hi-Res-01-180x.webp" class="card-img-top" alt="...">
               </a>
             </div>
 
-            <div class="card" style="width: 18rem;">
+            <div class="card client-card">
               <a href="<%= happyvalentinesday_path %>">
                 <img src="https://i.ibb.co/HrJg4JX/2x-E-Namsu-Logo-Hi-Res-01-180x.webp" class="card-img-top" alt="...">
               </a>
             </div>
 
-            <div class="card" style="width: 18rem;">
+            <div class="card client-card">
               <a href="<%= happyvalentinesday_path %>">
                 <img src="https://i.ibb.co/HrJg4JX/2x-E-Namsu-Logo-Hi-Res-01-180x.webp" class="card-img-top" alt="...">
               </a>
             </div>
           </div>
         </div>
-
-        <div class="carousel-item">
-          <div class="cards-wrapper">
-            <div class="card" style="width: 18rem;">
-              <a href="<%= happyvalentinesday_path %>">
-                <img src="https://i.ibb.co/9GVTwgd/Blog-entry-1.jpg" class="card-img-top" alt="...">
-              </a>
-            </div>
-
-            <div class="card" style="width: 18rem;">
-              <a href="<%= happyvalentinesday_path %>">
-                <img src="https://i.ibb.co/HrJg4JX/2x-E-Namsu-Logo-Hi-Res-01-180x.webp" class="card-img-top" alt="...">
-              </a>
-            </div>
-
-            <div class="card" style="width: 18rem;">
-              <a href="<%= happyvalentinesday_path %>">
-                <img src="https://i.ibb.co/HrJg4JX/2x-E-Namsu-Logo-Hi-Res-01-180x.webp" class="card-img-top" alt="...">
-              </a>
-            </div>
-
-            <div class="card" style="width: 18rem;">
-              <a href="<%= happyvalentinesday_path %>">
-                <img src="https://i.ibb.co/HrJg4JX/2x-E-Namsu-Logo-Hi-Res-01-180x.webp" class="card-img-top" alt="...">
-              </a>
-            </div>
-        </div>
+        <%# <div class="carousel-item">
+                <img src="https://i.ibb.co/9ZyC98F/218864833-104189261952256-8057249394250488165-n.png" class="card-img-top" alt="...">
+        </div> %>
       </div>
-      <button class="carousel-control-prev right-arrow" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
 
-    <div class="clients-footer" style="background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.3)), url(https://i.ibb.co/FB3tckG/200716-CPPC-Compliment-card-2.png);">
+
+
+    <div class="clients-footer" style="background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(https://i.ibb.co/FB3tckG/200716-CPPC-Compliment-card-2.png);">
     </div>
 
   </div>
