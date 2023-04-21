@@ -7,6 +7,22 @@
 .home-banner {
   width: 100vw;
   height: 100vh;
+  // background-size: cover;
+  // // background-repeat: no-repeat;
+  // background-position: top center;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // flex-direction: column;
+}
+
+.home-carousel {
+  height: 100%;
+}
+
+.home-slide {
+  width: 100vw;
+  height: 100vh;
   background-size: cover;
   // background-repeat: no-repeat;
   background-position: top center;
@@ -17,7 +33,8 @@
 }
 
 .home-logo {
-  height: 50%;
+  // height: 50%;
+  height: 500px;
 }
 
 .home-title-container {
