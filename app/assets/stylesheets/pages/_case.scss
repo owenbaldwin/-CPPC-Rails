@@ -1,10 +1,10 @@
 .case-container {
-  // height: 100vh;
+  height: 100vh;
   width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // justify-content: space-between;
 }
 
 .case-page {
@@ -22,6 +22,15 @@
   background-size: cover;
   // background-repeat: no-repeat;
   background-position: top center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    font-family: 'Futura';
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+  }
 }
 
 .case-text {
@@ -34,6 +43,7 @@
   p {
     margin: 0px;
     text-align: justify;
+    font-family: 'Sofia Sans';
   }
 }
 
@@ -67,6 +77,18 @@
   background-size: cover;
   // background-repeat: no-repeat;
   background-position: top center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  h1 {
+    font-family: 'Futura';
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    margin-left: 68px;
+    margin-top: 100px;
+  }
 }
 
 .case-half-white {
@@ -79,10 +101,18 @@
 }
 
 .carousel-outer {
-  width: 60%;
+  width: 180%;
   margin: 0px;
   right: calc(100vw / 5);
   position: relative;
+}
+
+.case-carousel-inner {
+  width: 84% !important;
+}
+
+.case-carousel-photo {
+  // height: 200px;
 }
 
 // // .carousel-control-prev-icon {
@@ -94,7 +124,12 @@
 
 
 
-// .case-quote {
-//   margin: 40px;
-//   text-align: justify;
-// }
+.case-quote {
+  margin: 40px;
+  text-align: justify;
+  p {
+      margin: 0px;
+      text-align: justify;
+      font-family: 'Sofia Sans';
+    }
+}
