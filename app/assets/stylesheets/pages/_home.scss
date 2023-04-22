@@ -56,3 +56,17 @@
     margin-left: 48px;
   }
 }
+
+
+.mandatory-scroll-snapping {
+  // scroll-snap-type: y mandatory;
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+  overflow-y: scroll;
+  // overflow: hidden;
+}
+
+.scroll-page {
+  scroll-snap-align: start;
+  height: 100vh;
+}
