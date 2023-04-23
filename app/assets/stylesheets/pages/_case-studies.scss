@@ -42,7 +42,15 @@
     margin: 0px;
     color: white;
     transition: 0.4s;
-      transition-timing-function: ease;
+    transition-timing-function: ease;
+    font-family: 'Futura', 'Questrial',
+      sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  h2,a:hover {
+    color: $coral;
   }
   transition: 0.4s;
   transition-timing-function: ease;

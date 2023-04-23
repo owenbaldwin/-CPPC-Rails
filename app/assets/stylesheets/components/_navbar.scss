@@ -479,7 +479,9 @@
   align-items: center;
   justify-content: center;
   a {
-    font-family: 'Futura';
+    font-family: 'Futura',
+      'Questrial',
+      sans-serif;
     color: white;
     font-size: 60px;
     font-weight: bold;
