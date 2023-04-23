@@ -45,7 +45,7 @@
   p {
     margin: 0px;
     text-align: justify;
-    font-family: 'Sofia Sans', 'Nunito Sans';
+    font-family: 'Sofia Sans', 'Nunito Sans' !important;
   }
 }
 
@@ -135,6 +135,6 @@
       margin: 0px;
       text-align: justify;
       font-family: 'Sofia Sans',
-        'Nunito Sans';
+        'Nunito Sans' !important;
     }
 }
