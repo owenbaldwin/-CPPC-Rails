@@ -30,7 +30,9 @@
   justify-content: center;
   margin-right: 48px;
   h1 {
-    font-family: 'Futura';
+    font-family: 'Futura',
+      'Questrial',
+      sans-serif;
     color: $coral;
     font-size: 80px;
     font-weight: bold;
@@ -46,7 +48,9 @@
   height: 40%;
   p {
     margin: 0px;
-    font-family: 'Sofia Sans';
+    font-family: 'Sofia Sans',
+      'Poppins',
+      'Nunito Sans';
     font-size: 18px;
   }
 }
