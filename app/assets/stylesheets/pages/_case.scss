@@ -30,7 +30,7 @@
       'Questrial',
       sans-serif;
     color: white;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: bold;
   }
 }
@@ -45,7 +45,7 @@
   p {
     margin: 0px;
     text-align: justify;
-    font-family: 'Sofia Sans', 'Nunito Sans' !important;
+    font-family: 'Sofia Sans' !important;
   }
 }
 
@@ -88,7 +88,7 @@
       'Questrial',
       sans-serif;
     color: white;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: bold;
     margin-left: 68px;
     margin-top: 100px;
@@ -130,11 +130,12 @@
 
 .case-quote {
   margin: 40px;
-  text-align: justify;
+  text-align: end;
   p {
       margin: 0px;
-      text-align: justify;
-      font-family: 'Sofia Sans',
-        'Nunito Sans' !important;
+      text-align: end;
+      // font-family: 'Sofia Sans',
+      //   'Nunito Sans' !important;
+        font-family: 'Sofia Sans'!important;
     }
 }
