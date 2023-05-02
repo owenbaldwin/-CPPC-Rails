@@ -1,4 +1,21 @@
-<%# <div class="modal" tabindex="-1" id="admodal">
+
+ <script>
+  // $(document).ready(function () {
+  //   setTimeout( function () => {
+  //     $("#admodal").modal('show');
+  //   }, 2000);
+  // });
+
+  // const adModal = new bootstrap.Modal('#admodal');
+  // window.addEventListener('DOMContentLoaded', () => {
+  //   adModal.show();
+  // });
+
+
+
+</script>
+<%#
+<div class="modal" tabindex="-1" id="admodal">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -14,12 +31,42 @@
       </div>
     </div>
   </div>
-</div>
+</div> %>
 
-<script>
-  $(document).ready(function () {
-    setTimeout( function () => {
-      $("#admodal").modal('show');
-    }, 2000);
-  });
-</script> %>
+<%# <div id="adModal" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Mailising list</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div> %>
+
+
+<div class="modal fade" tabindex="-1" id="adModal">
+  <div class="modal-dialog">
+    <div class="modal-content ad-modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close ad-btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div data-tf-widget="FMolCZ0T" data-tf-opacity="100" data-tf-iframe-props="title=CPPC Newsletter Signup Form" data-tf-transitive-search-params data-tf-medium="snippet" style="width:100%;height:500px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
+      </div>
+      <%# <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> %>
+    </div>
+  </div>
+</div>

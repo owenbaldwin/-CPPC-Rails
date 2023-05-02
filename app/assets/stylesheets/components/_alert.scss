@@ -4,3 +4,47 @@
   right: 16px;
   z-index: 1000;
 }
+
+
+.ad-modal-content {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.ad-btn-close {
+  background-color: white !important;
+}
+
+
+
+
+
+
+
+
+// .modal {
+//   padding-left: 0 !important;
+// }
+
+// /*.modal-content {
+//   background-color: transparent !important;
+//   border: 0 !important;
+//   text-align: center;
+//   width: auto !important;
+// } FOR IMAGE ONLY */
+
+// .modal-dialog {
+//   min-height: calc(100vh - 60px);
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   overflow: auto;
+//   max-width: none !important;
+// }
+
+// @media(max-width: 768px) {
+//   .modal-dialog {
+//     min-height: calc(100vh - 20px);
+//   }
+// }
