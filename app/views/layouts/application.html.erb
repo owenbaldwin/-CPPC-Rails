@@ -33,9 +33,19 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script>$(window).on('load',function(){
       setTimeout(function() {
-        $('#adModal').modal('show');
-      }, 30000)
+        const is_already_show = sessionStorage.getItem('alreadyShow');
+        if(is_already_show != 'already shown'){
+          sessionStorage.setItem('alreadyShow', 'already shown');
+          $('#adModal').modal('show');
+
+        }else{
+          console.log(is_already_show);
+        }
+      }, 3000)
     });
+    // SHOW MODAL ONCE TUTORIAL
+    // https://www.youtube.com/watch?v=K6tCkA_IRz8&t=9s
     </script>
+
   </body>
 </html>
