@@ -34,6 +34,7 @@
   background-color: transparent;
   height: 120px;
   width: 120px;
+  animation: configure-xclockwise 10s ease-in-out 0s infinite;
 }
 
 .nav-close-btn {
@@ -101,5 +102,57 @@
   }
   a:hover {
     color: $coral;
+  }
+}
+
+
+
+@keyframes configure-xclockwise {
+  0% {
+    transform: rotate(0);
+  }
+
+  78% {
+    transform: rotate(0deg);
+  }
+
+  80% {
+    transform: rotate(-15deg);
+  }
+
+  82% {
+    transform: rotate(15deg);
+  }
+
+  84% {
+    transform: rotate(-15deg);
+  }
+
+  86% {
+    transform: rotate(15deg);
+  }
+
+  88% {
+    transform: rotate(-10deg);
+  }
+
+  90% {
+    transform: rotate(10deg);
+  }
+
+  92% {
+    transform: rotate(-5deg);
+  }
+
+  94% {
+    transform: rotate(5deg);
+  }
+
+  96% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
   }
 }
