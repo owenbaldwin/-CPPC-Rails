@@ -40,6 +40,8 @@
 .home-title-container {
   width: 40%;
   text-align: center;
+  // display: flex;
+  // flex-direction: column;
   h3 {
     color: white;
     font-family: 'Sofia Sans' !important;
@@ -79,4 +81,9 @@
 .scroll-page {
   scroll-snap-align: start;
   height: 100vh;
+}
+
+
+.down-arrow {
+  transform: rotate(90deg);
 }

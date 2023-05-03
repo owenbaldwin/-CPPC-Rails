@@ -33,8 +33,10 @@
 }
 
 .client-card {
+    justify-content: center !important;
   a {
     display: flex;
     align-items: center;
+    justify-content: center !important;
   }
 }
