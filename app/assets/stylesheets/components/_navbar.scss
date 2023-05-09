@@ -37,6 +37,12 @@
   animation: configure-xclockwise 10s ease-in-out 0s infinite;
 }
 
+.nav-icon:hover {
+
+    transform: scale(1.15);
+
+}
+
 .nav-close-btn {
   border: none;
   padding: 0px;
@@ -154,5 +160,17 @@
 
   100% {
     transform: rotate(0deg);
+  }
+}
+
+
+@media screen and (max-width: $tablet) {
+  .modal-body {
+    a {
+      font-size: 40px;
+    }
+    button {
+      font-size: 40px;
+    }
   }
 }
