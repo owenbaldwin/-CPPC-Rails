@@ -49,7 +49,7 @@
 
 
 
-  <div class="case-studies-container scroll-page" id="case-studies-section">
+  <div class="case-studies-container scroll-page desktop-version" id="case-studies-section">
     <div class="section-title">
       <h1>Case Studies</h1>
     </div>
@@ -151,7 +151,99 @@
   </div>
 
 
-  <div class="our-story-container scroll-page" id="our-story-section">
+
+
+  <div class="case-studies-container scroll-page mobile-version" id="case-studies-section">
+    <div class="section-title">
+      <h1>Case Studies</h1>
+    </div>
+
+    <div id="mobileCaseStudiesCarousel" class="carousel slide carousel-fade">
+      <div class="carousel-inner case-studies-carousel-inner">
+        <div class="carousel-item case-studies-carousel-item active">
+          <div class="mobile-case-studies-list">
+
+            <div class="mobile-case-study" style="background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.3)), url(https://res.cloudinary.com/dpr9f2iyl/image/upload/v1681297792/CPPC_WILD_1_25_lya2vq.jpg);">
+              <div class="case-study-filter">
+                <h2><%= link_to "Wild", root_path %></h2>
+              </div>
+
+            </div>
+
+            <div class="mobile-case-study" style="background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.3)), url(https://res.cloudinary.com/dpr9f2iyl/image/upload/v1681297432/CPPC_ROAM_5_efs8zm.jpg);">
+              <div class="case-study-filter">
+                <h2><%= link_to "Roam", root_path %></h2>
+              </div>
+
+            </div>
+
+            <div class="mobile-case-study" style="background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.3)), url(https://res.cloudinary.com/dpr9f2iyl/image/upload/v1681297429/CPPC_NEAT_1_w2wueg.jpg);">
+              <div class="case-study-filter">
+                <h2><%= link_to "Neat", root_path %></h2>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item case-studies-carousel-item">
+          <div class="mobile-case-studies-list">
+
+            <div class="mobile-case-study" style="background-color: white;">
+              <img src="https://i.ibb.co/DQQh11R/CPPC-MENU-ICON-CLIENT-PAGE-2-copy.png", class="case-icon">
+            </div>
+
+            <div class="mobile-case-study" style="background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.3)), url(https://res.cloudinary.com/dpr9f2iyl/image/upload/v1681297425/CPPC_NAMSU_1_cv8k1n.jpg);">
+              <div class="case-study-filter">
+                <h2><%= link_to "Namsu", root_path %></h2>
+              </div>
+            </div>
+
+            <div class="mobile-case-study" style="background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.3)), url(https://res.cloudinary.com/dpr9f2iyl/image/upload/v1681297428/CPPC_AKT_5_pv1agb.jpg);">
+              <div class="case-study-filter">
+                <h2><%= link_to "AKT", akt_path %></h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item case-studies-carousel-item">
+          <div class="mobile-case-studies-list">
+
+
+            <div class="mobile-case-study" style="background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.3)), url(https://res.cloudinary.com/dpr9f2iyl/image/upload/v1681297432/CPPC_ROAM_5_efs8zm.jpg);">
+              <div class="case-study-filter">
+                <h2><%= link_to "Roam", root_path %></h2>
+              </div>
+
+            </div>
+
+            <div class="mobile-case-study" style="background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.3)), url(https://res.cloudinary.com/dpr9f2iyl/image/upload/v1681297428/CPPC_AKT_5_pv1agb.jpg);">
+              <div class="case-study-filter">
+                <h2><%= link_to "AKT", akt_path %></h2>
+              </div>
+            </div>
+
+            <div class="mobile-case-study" style="background-color: white;">
+              <img src="https://i.ibb.co/DQQh11R/CPPC-MENU-ICON-CLIENT-PAGE-2-copy.png", class="case-icon">
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#mobileCaseStudiesCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#mobileCaseStudiesCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </div>
+
+
+  <%# <div class="our-story-container scroll-page" id="our-story-section">
     <div class="section-title">
       <h1>Our Story</h1>
     </div>
@@ -182,287 +274,9 @@
         <img src="https://i.ibb.co/yBMZkvw/CPPC-OUR-STORY-photo.jpg", class="our-story-photo">
       </div>
     </div>
-  </div>
-
-  <div class="sustainability-container scroll-page" id="sustainability-section">
-    <div class="sustainability-banner" style="background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.3)), url(https://i.ibb.co/H2m1BCs/AKT-4-copy.jpg);">
-      <img src="https://i.ibb.co/tJM5X3F/Approved-Partner-CMYK-Grey-Solid.png", class="sustainability-stamp">
-    </div>
-    <div class="sustainability-text">
-      <%# <div class="sustainability-title"> %>
-        <h1>Sustainability</h1>
-      <%# </div> %>
-      <div class="sustainability-paragraph">
-        <div class="quotation quotation-left">
-          <img src="https://i.ibb.co/N3J6yH0/CPPC-QUOTATION-MARK-LEFT.png", class="about-photo">
-        </div>
-        <p><b>CPPC</b> cares deeply about how our operations impact people and the world we all share. We strive to produce high-quality products through ethical business practices and by evaluating the practices of the production companies we choose to partner with. We adopt new, environmentally friendly packaging innovations as soon as they are available and we are always looking for innovations to help our clients find sustainable solutions.These goals are at the core of who we are and the drivers behind all our decision making. And we hear first hand the difference they make to the people we work with. And that makes everything we do worthwhile.
-        </p>
-        <div class="quotation quotation-right">
-          <img src="https://i.ibb.co/F8K1fM1/CPPC-QUOTATION-MARK-RIGHT.png", class="about-photo">
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="news-container scroll-page" id="news-section">
-    <div class="section-title">
-      <h1>News</h1>
-    </div>
-    <%# https://www.youtube.com/watch?v=kHPm_AlxP7U&t=46s %>
-    <div id="carouselExample" class="carousel slide news-carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="cards-wrapper news-cards-wrapper">
-            <div class="card">
-              <a href="<%= happyvalentinesday_path %>">
-                <img src="https://i.ibb.co/9GVTwgd/Blog-entry-1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h6>PACKAGING INNOVATIONS 2023</h6>
-                  <p class="card-text">
-                    Just recovering from a whirlwind trip up to The NEC in Birmingham last week, to the annual Packaging Innovations Exhibition, where I hooked up with all the major players in the biz and listened to expert speakers share their thoughts on the future of our industry.
-                  </p>
-                </div>
-              </a>
-            </div>
-
-            <div class="card">
-              <a href="<%= happyvalentinesday_path %>">
-                <img src="https://i.ibb.co/C6Q4qmL/Blog-entry-2.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h6>HAPPY VALENTINE’S DAY!</h6>
-                  <p class="card-text">
-                    Our current crush is Roam and their cheeky Valentine’s range. The All Night Long Kit is a personal fave and there’s also The Couple’s Kit, The Cupid Kit and The Roamance Kit. Behind the quirky names the brand has a serious sentiment, and that is to challenge stigmas around sex providing a range that supports what feels natural.
-                  </p>
-                </div>
-              </a>
-            </div>
-
-            <div class="card">
-              <a href="<%= happyvalentinesday_path %>">
-                <img src="https://i.ibb.co/WzHtbbb/Blog-entry-3.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h6>CPPC X KARIWALA</h6>
-                  <p class="card-text">
-                    Happy Sustainable and Successful New Year. Success at CPPC towers doesn't just mean working with brilliant clients, getting exciting briefs and discovering innovative and sustainable packaging solutions. Success also means the positive impact we have along the way by creating work for people as we source our materials and products from around the globe.
-                  </p>
-                </div>
-              </a>
-            </div>
-
-            <div class="card">
-              <a href="<%= happyvalentinesday_path %>">
-                <img src="https://i.ibb.co/prZ6DN7/Blog-entry-4.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h6>CHRISTMAS IS COMING!</h6>
-                  <p class="card-text">
-                    Which is why, at CPPC towers, we are thrilled to craft super stylish and sustainable packaging for a number of our luxury clients. Smouldering and strong, blended to fill your home full of seasonal citrus scents, light AKT's signature SC.01 Orange Grove candle for instant festive feels. CPPC produced the amber-tinted and screen-printed glassware featuring AKT's chic branding.
-                  </p>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <div class="cards-wrapper news-cards-wrapper">
-            <div class="card">
-              <a href="<%= happyvalentinesday_path %>">
-                <img src="https://i.ibb.co/9GVTwgd/Blog-entry-1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h6>PACKAGING INNOVATIONS 2023</h6>
-                  <p class="card-text">
-                    Just recovering from a whirlwind trip up to The NEC in Birmingham last week, to the annual Packaging Innovations Exhibition, where I hooked up with all the major players in the biz and listened to expert speakers share their thoughts on the future of our industry.
-                  </p>
-                </div>
-              </a>
-            </div>
-
-            <div class="card">
-              <a href="<%= happyvalentinesday_path %>">
-                <img src="https://i.ibb.co/C6Q4qmL/Blog-entry-2.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h6>HAPPY VALENTINE’S DAY!</h6>
-                  <p class="card-text">
-                    Our current crush is Roam and their cheeky Valentine’s range. The All Night Long Kit is a personal fave and there’s also The Couple’s Kit, The Cupid Kit and The Roamance Kit. Behind the quirky names the brand has a serious sentiment, and that is to challenge stigmas around sex providing a range that supports what feels natural.
-                  </p>
-                </div>
-              </a>
-            </div>
-
-            <div class="card">
-              <a href="<%= happyvalentinesday_path %>">
-                <img src="https://i.ibb.co/WzHtbbb/Blog-entry-3.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h6>CPPC X KARIWALA</h6>
-                  <p class="card-text">
-                    Happy Sustainable and Successful New Year. Success at CPPC towers doesn't just mean working with brilliant clients, getting exciting briefs and discovering innovative and sustainable packaging solutions. Success also means the positive impact we have along the way by creating work for people as we source our materials and products from around the globe.
-                  </p>
-                </div>
-              </a>
-            </div>
-
-            <div class="card">
-              <a href="<%= happyvalentinesday_path %>">
-                <img src="https://i.ibb.co/prZ6DN7/Blog-entry-4.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h6>CHRISTMAS IS COMING!</h6>
-                  <p class="card-text">
-                    Which is why, at CPPC towers, we are thrilled to craft super stylish and sustainable packaging for a number of our luxury clients. Smouldering and strong, blended to fill your home full of seasonal citrus scents, light AKT's signature SC.01 Orange Grove candle for instant festive feels. CPPC produced the amber-tinted and screen-printed glassware featuring AKT's chic branding.
-                  </p>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <div class="cards-wrapper news-cards-wrapper">
-            <div class="card">
-                <a href="<%= happyvalentinesday_path %>">
-                  <img src="https://i.ibb.co/9GVTwgd/Blog-entry-1.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h6>PACKAGING INNOVATIONS 2023</h6>
-                    <p class="card-text">
-                      Just recovering from a whirlwind trip up to The NEC in Birmingham last week, to the annual Packaging Innovations Exhibition, where I hooked up with all the major players in the biz and listened to expert speakers share their thoughts on the future of our industry.
-                    </p>
-                  </div>
-                </a>
-              </div>
-
-              <div class="card">
-                <a href="<%= happyvalentinesday_path %>">
-                  <img src="https://i.ibb.co/C6Q4qmL/Blog-entry-2.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h6>HAPPY VALENTINE’S DAY!</h6>
-                    <p class="card-text">
-                      Our current crush is Roam and their cheeky Valentine’s range. The All Night Long Kit is a personal fave and there’s also The Couple’s Kit, The Cupid Kit and The Roamance Kit. Behind the quirky names the brand has a serious sentiment, and that is to challenge stigmas around sex providing a range that supports what feels natural.
-                    </p>
-                  </div>
-                </a>
-              </div>
-
-              <div class="card">
-                <a href="<%= happyvalentinesday_path %>">
-                  <img src="https://i.ibb.co/WzHtbbb/Blog-entry-3.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h6>CPPC X KARIWALA</h6>
-                    <p class="card-text">
-                      Happy Sustainable and Successful New Year. Success at CPPC towers doesn't just mean working with brilliant clients, getting exciting briefs and discovering innovative and sustainable packaging solutions. Success also means the positive impact we have along the way by creating work for people as we source our materials and products from around the globe.
-                    </p>
-                  </div>
-                </a>
-              </div>
-
-              <div class="card">
-                <a href="<%= happyvalentinesday_path %>">
-                  <img src="https://i.ibb.co/prZ6DN7/Blog-entry-4.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h6>CHRISTMAS IS COMING!</h6>
-                    <p class="card-text">
-                      Which is why, at CPPC towers, we are thrilled to craft super stylish and sustainable packaging for a number of our luxury clients. Smouldering and strong, blended to fill your home full of seasonal citrus scents, light AKT's signature SC.01 Orange Grove candle for instant festive feels. CPPC produced the amber-tinted and screen-printed glassware featuring AKT's chic branding.
-                    </p>
-                  </div>
-                </a>
-              </div>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev right-arrow" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon " aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+  </div> %>
 
 
 
-
-  </div>
-
-  <div class="clients-container scroll-page" id="clients-section">
-    <div class="section-title">
-      <h1>Clients</h1>
-    </div>
-
-    <div id="carouselClients" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="cards-wrapper">
-            <div class="card client-card">
-              <a href="<%= happyvalentinesday_path %>">
-                <img src="https://i.ibb.co/mbKPjXJ/Fortnum-and-mason-logo-stacked.png" class="card-img-top" alt="...">
-              </a>
-            </div>
-
-            <div class="card client-card">
-              <a href="<%= happyvalentinesday_path %>">
-                <img src="https://i.ibb.co/kMxZzmt/NEAT-Logo-RGB-500x.png" class="card-img-top" alt="...">
-              </a>
-            </div>
-
-            <div class="card client-card">
-              <a href="<%= happyvalentinesday_path %>">
-                <img src="https://i.ibb.co/4sP7JZK/218864833-104189261952256-8057249394250488165-n.png" class="card-img-top" alt="...">
-              </a>
-            </div>
-
-            <div class="card client-card">
-              <a href="<%= happyvalentinesday_path %>">
-                <img src="https://i.ibb.co/sqRcktT/wild-logo-transparent.png" class="card-img-top" alt="...">
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="cards-wrapper">
-            <div class="card client-card">
-              <a href="<%= happyvalentinesday_path %>">
-                <img src="https://i.ibb.co/yyS2MkP/2x-E-Namsu-Logo-Hi-Res-01-180x.webp" class="card-img-top" alt="...">
-              </a>
-            </div>
-
-            <div class="card client-card">
-              <a href="<%= happyvalentinesday_path %>">
-                <img src="https://i.ibb.co/yyS2MkP/2x-E-Namsu-Logo-Hi-Res-01-180x.webp" class="card-img-top" alt="...">
-              </a>
-            </div>
-
-            <div class="card client-card">
-              <a href="<%= happyvalentinesday_path %>">
-                <img src="https://i.ibb.co/yyS2MkP/2x-E-Namsu-Logo-Hi-Res-01-180x.webp" class="card-img-top" alt="...">
-              </a>
-            </div>
-
-            <div class="card client-card">
-              <a href="<%= happyvalentinesday_path %>">
-                <img src="https://i.ibb.co/yyS2MkP/2x-E-Namsu-Logo-Hi-Res-01-180x.webp" class="card-img-top" alt="...">
-              </a>
-            </div>
-          </div>
-        </div>
-        <%# <div class="carousel-item">
-                <img src="https://i.ibb.co/9ZyC98F/218864833-104189261952256-8057249394250488165-n.png" class="card-img-top" alt="...">
-        </div> %>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselClients" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselClients" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-
-
-
-    <div class="clients-footer" style="background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(https://i.ibb.co/FB3tckG/200716-CPPC-Compliment-card-2.png);">
-    </div>
-  </div>
 
 </div>

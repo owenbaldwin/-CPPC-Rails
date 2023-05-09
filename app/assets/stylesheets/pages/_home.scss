@@ -87,3 +87,14 @@
 .down-arrow {
   transform: rotate(90deg);
 }
+
+
+@media screen and (max-width: $tablet) {
+  .home-logo {
+    height: 300px;
+  }
+
+  .home-title-container {
+    width: 100%;
+  }
+}
