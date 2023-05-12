@@ -114,3 +114,165 @@
   transform: scale(1.05);
   transition: 0.3s;
 }
+
+.desktop-valentine {
+  display: flex;
+}
+
+.mobile-valentine {
+  display: none;
+}
+
+.mobile-valentine-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mobile-valentine-banner {
+  width: 100vw;
+  height: 200px;
+  background-size: cover;
+  // background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+
+  h1 {
+    font-family: 'Futura',
+      'Questrial',
+      sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
+
+.mobile-valentine-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.mobile-valentine-text {
+  width: 80%;
+  // height: 100%;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 0px;
+
+  p {
+    margin: 0px;
+    font-family: 'Sofia Sans' !important;
+    font-size: 12px;
+    width: 80%;
+  }
+}
+
+.mobile-more-news {
+  width: 80%;
+  // height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  h6 {
+    font-family: 'Futura',
+      'Questrial',
+      sans-serif;
+    color: $coral;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+}
+
+.mobile-more-news-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.mobile-more-news-card {
+  // height: 80%;
+  // width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  transition: 0.3s;
+  margin: 12px 0px;
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+
+    img {
+      height: 80px;
+    }
+
+    p {
+      margin: 0px 8px;
+      font-family: 'Sofia Sans' !important;
+      font-size: 14px;
+      color: black;
+      font-weight: bold;
+    }
+  }
+}
+
+@media screen and (max-width: $phone) {
+  .desktop-valentine {
+    display: none;
+  }
+
+  .mobile-valentine {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: $phone-large) {
+  .desktop-valentine {
+    display: none;
+  }
+
+  .mobile-valentine {
+    display: flex;
+  }
+
+}
+
+
+@media screen and (min-width: 481px) and (max-width: $tablet) {
+  .desktop-valentine {
+    display: none;
+  }
+
+  .mobile-valentine {
+    display: flex;
+  }
+
+  .mobile-valentine-text {
+    p {
+      font-size: 14px;
+      width: 92%;
+    }
+  }
+
+  .mobile-valentine-banner {
+    height: 300px;
+  }
+}
