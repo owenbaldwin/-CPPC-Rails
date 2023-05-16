@@ -70,13 +70,14 @@
 
 .case-study-filter {
   display: flex;
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100%;
   background-color: transparent;
   transition: 0.4s;
-    transition-timing-function: ease;
+  transition-timing-function: ease;
+  text-align: center;
 }
 
 .case-study:hover {
