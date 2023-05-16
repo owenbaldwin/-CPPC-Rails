@@ -41,18 +41,35 @@
 }
 
 .sustainability-paragraph {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
   text-align: end;
   width: 80%;
-  height: 40%;
+  // height: 40%;
+  position: relative;
   p {
     margin: 0px;
     font-family: 'Sofia Sans' !important;
     font-size: 18px;
   }
+
 }
+
+.quote-img {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  &.quote-left {
+    left: -40px;
+    top: -40px;
+  }
+  &.quote-right {
+    right: -40px;
+    bottom: -40px;
+  }
+}
+
 
 .desktop-sustainability {
   display: block;
@@ -166,6 +183,21 @@
     height: 30%;
   }
 }
+
+@media screen and (min-width: 921px) and (max-width: $laptop) {
+  .desktop-sustainability {
+    display: flex;
+  }
+
+  .mobile-sustainability {
+    display: none;
+  }
+
+  // .sustainability-paragraph {
+  //   height: 68%;
+  // }
+}
+
 
 @media screen and (min-width: 921px)  {
   .desktop-sustainability {

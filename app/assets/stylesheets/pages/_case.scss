@@ -35,19 +35,43 @@
   }
 }
 
-.case-text {
+.case-text-container {
+  width: 100%;
+  height: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.case-text {
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
   width: 70%;
 
-  height: 200px;
-  margin: 100px 0px;
+  // height: 200px;
+  // margin: 100px 0px;
+  position: relative;
   p {
     margin: 0px;
     text-align: justify;
     font-family: 'Sofia Sans' !important;
     font-size: 20px;
+  }
+}
+
+.quote-img {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+
+  &.quote-left {
+    left: -40px;
+    top: -40px;
+  }
+
+  &.quote-right {
+    right: -40px;
+    bottom: -40px;
   }
 }
 
