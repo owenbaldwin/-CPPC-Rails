@@ -71,6 +71,8 @@
 }
 
 
+
+
 .desktop-sustainability {
   display: block;
 }
@@ -120,18 +122,36 @@
 
 
 .mobile-sustainability-paragraph {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: justify;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // text-align: justify;
   // width: 80%;
   // height: 70%;
   margin: 20px;
-
+  position: relative;
+  text-align: justify;
+  width: 80%;
   p {
     margin: 0px;
     font-family: 'Sofia Sans' !important;
     font-size: 12px;
+  }
+}
+
+.mobile-quote-img {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+
+  &.mobile-quote-left {
+    left: -20px;
+    top: -20px;
+  }
+
+  &.mobile-quote-right {
+    right: -20px;
+    bottom: -20px;
   }
 }
 
@@ -148,9 +168,9 @@
     display: block;
   }
 
-  .mobile-sustainability-paragraph {
-    height: 70%;
-  }
+  // .mobile-sustainability-paragraph {
+  //   height: 70%;
+  // }
 
 }
 
@@ -163,9 +183,9 @@
     display: block;
   }
 
-  .mobile-sustainability-paragraph {
-    height: 50%;
-  }
+  // .mobile-sustainability-paragraph {
+  //   height: 50%;
+  // }
 
 }
 
@@ -179,9 +199,9 @@
     display: block;
   }
 
-  .mobile-sustainability-paragraph {
-    height: 30%;
-  }
+  // .mobile-sustainability-paragraph {
+  //   height: 30%;
+  // }
 }
 
 @media screen and (min-width: 921px) and (max-width: $laptop) {
