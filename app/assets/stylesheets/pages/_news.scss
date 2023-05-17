@@ -3,9 +3,9 @@
 //   justify-content: center !important;
 // }
 
-.news-container {
-  min-height: 100vh;
-}
+// .news-container {
+//   height: 100vh;
+// }
 
 .news-carousel {
   height: 83%;
@@ -77,10 +77,12 @@
 
 .desktop-news {
   display: block;
+  min-height: 100vh;
 }
 
 .mobile-news {
   display: none;
+  height: 100vh;
 }
 
 .mobile-news-banner {
