@@ -44,6 +44,7 @@
   }
   img {
     width: 80%;
+    border-radius: 0px !important;
   }
 }
 
@@ -111,7 +112,7 @@
 }
 
 .mobile-news-card {
-  margin: 24px 0px;
+  margin: 24px 10px;
   width: calc(100%/6);
   border: none !important;
   border-radius: 0px !important;
@@ -135,7 +136,7 @@
   }
 
   img {
-    width: 80%;
+    width: 110%;
     transform: rotate(-90deg);
     margin-top: 12px;
   }
