@@ -18,6 +18,9 @@ class PagesController < ApplicationController
   def owllark
   end
 
+  def wild
+  end
+
   def happy_valentines_day
   end
 end
