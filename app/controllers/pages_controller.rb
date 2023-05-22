@@ -9,6 +9,9 @@ class PagesController < ApplicationController
   def machina
   end
 
+  def namsu
+  end
+
   def happy_valentines_day
   end
 end
