@@ -21,6 +21,9 @@ class PagesController < ApplicationController
   def wild
   end
 
+  def neat
+  end
+
   def happy_valentines_day
   end
 end
