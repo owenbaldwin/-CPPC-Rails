@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   root to: "pages#home"
   get :akt, to: 'pages#akt'
   get :machina, to: 'pages#machina'
+  get :namsu, to: 'pages#namsu'
 
   get :happyvalentinesday, to: 'pages#happy_valentines_day'
 
