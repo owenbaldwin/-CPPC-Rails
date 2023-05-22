@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get :machina, to: 'pages#machina'
   get :namsu, to: 'pages#namsu'
   get :fortnumandmason, to: 'pages#fortnumandmason'
+  get :owllark, to: 'pages#owllark'
 
   get :happyvalentinesday, to: 'pages#happy_valentines_day'
 
