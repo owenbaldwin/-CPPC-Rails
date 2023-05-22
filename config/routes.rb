@@ -10,6 +10,8 @@ Rails.application.routes.draw do
   get :fortnumandmason, to: 'pages#fortnumandmason'
   get :owllark, to: 'pages#owllark'
   get :wild, to: 'pages#wild'
+  get :neat, to: 'pages#neat'
+
 
   get :happyvalentinesday, to: 'pages#happy_valentines_day'
 
