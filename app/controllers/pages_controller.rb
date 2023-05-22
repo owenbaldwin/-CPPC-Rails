@@ -12,6 +12,10 @@ class PagesController < ApplicationController
   def namsu
   end
 
+  def fortnumandmason
+
+  end
+
   def happy_valentines_day
   end
 end
