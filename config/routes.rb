@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get :namsu, to: 'pages#namsu'
   get :fortnumandmason, to: 'pages#fortnumandmason'
   get :owllark, to: 'pages#owllark'
+  get :wild, to: 'pages#wild'
 
   get :happyvalentinesday, to: 'pages#happy_valentines_day'
 
