@@ -30,6 +30,9 @@ class PagesController < ApplicationController
   def roam
   end
 
+  def oto
+  end
+
   def happy_valentines_day
   end
 end
