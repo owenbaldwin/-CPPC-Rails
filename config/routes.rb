@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   get :neat, to: 'pages#neat'
   get :tillysveaas, to: 'pages#tillysveaas'
   get :roam, to: 'pages#roam'
+  get :oto, to: 'pages#oto'
 
 
   get :happyvalentinesday, to: 'pages#happy_valentines_day'
