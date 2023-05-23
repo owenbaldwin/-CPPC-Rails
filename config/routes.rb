@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   get :wild, to: 'pages#wild'
   get :neat, to: 'pages#neat'
   get :tillysveaas, to: 'pages#tillysveaas'
+  get :roam, to: 'pages#roam'
 
 
   get :happyvalentinesday, to: 'pages#happy_valentines_day'
