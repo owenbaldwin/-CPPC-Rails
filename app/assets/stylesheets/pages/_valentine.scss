@@ -37,6 +37,10 @@
   height: 60%;
 }
 
+.blog-column {
+  flex-direction: column !important;
+}
+
 
 .valentine-text {
   width: 60%;
@@ -59,12 +63,21 @@
   }
 }
 
+.valentine-text-column {
+  width: 90% !important;
+  margin-right: 0px !important;
+}
+
 .valentine-carousel {
   width: 40%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.valentine-carousel-column {
+  width: 90% !important;
 }
 
 .more-news {

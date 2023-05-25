@@ -38,4 +38,7 @@ class PagesController < ApplicationController
 
   def roam_article
   end
+
+  def global_recycling_day
+  end
 end
