@@ -41,4 +41,7 @@ class PagesController < ApplicationController
 
   def global_recycling_day
   end
+
+  def packaging_innovations
+  end
 end
