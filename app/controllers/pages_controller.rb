@@ -35,4 +35,7 @@ class PagesController < ApplicationController
 
   def happy_valentines_day
   end
+
+  def roam_article
+  end
 end

@@ -17,5 +17,6 @@ Rails.application.routes.draw do
 
 
   get :happyvalentinesday, to: 'pages#happy_valentines_day'
+  get :roamarticle, to: 'pages#roam_article'
 
 end
