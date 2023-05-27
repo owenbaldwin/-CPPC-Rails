@@ -21,5 +21,6 @@ Rails.application.routes.draw do
   get :globalrecyclingday, to: 'pages#global_recycling_day'
   get :packaginginnovations, to: 'pages#packaging_innovations'
   get :kariwala, to: 'pages#kariwala'
+  get :christmasiscoming, to: 'pages#christmasiscoming'
 
 end

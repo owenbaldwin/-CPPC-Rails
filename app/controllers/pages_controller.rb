@@ -47,4 +47,7 @@ class PagesController < ApplicationController
 
   def kariwala
   end
+
+  def christmasiscoming
+  end
 end
