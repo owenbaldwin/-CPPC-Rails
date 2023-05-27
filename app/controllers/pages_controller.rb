@@ -53,4 +53,7 @@ class PagesController < ApplicationController
 
   def fiveyearsofcppc
   end
+
+  def wildarticle
+  end
 end

@@ -23,5 +23,6 @@ Rails.application.routes.draw do
   get :kariwala, to: 'pages#kariwala'
   get :christmasiscoming, to: 'pages#christmasiscoming'
   get :fiveyearsofcppc, to: 'pages#fiveyearsofcppc'
+  get :wildarticle, to: 'pages#wildarticle'
 
 end
