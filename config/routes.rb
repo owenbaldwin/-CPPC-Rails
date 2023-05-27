@@ -24,5 +24,6 @@ Rails.application.routes.draw do
   get :christmasiscoming, to: 'pages#christmasiscoming'
   get :fiveyearsofcppc, to: 'pages#fiveyearsofcppc'
   get :wildarticle, to: 'pages#wildarticle'
+  get :ecommerce, to: 'pages#ecommerce'
 
 end

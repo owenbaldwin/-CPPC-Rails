@@ -56,4 +56,7 @@ class PagesController < ApplicationController
 
   def wildarticle
   end
+
+  def ecommerce
+  end
 end
