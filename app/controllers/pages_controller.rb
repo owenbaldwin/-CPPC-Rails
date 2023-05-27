@@ -44,4 +44,7 @@ class PagesController < ApplicationController
 
   def packaging_innovations
   end
+
+  def kariwala
+  end
 end
