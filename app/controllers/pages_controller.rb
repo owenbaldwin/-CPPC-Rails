@@ -50,4 +50,7 @@ class PagesController < ApplicationController
 
   def christmasiscoming
   end
+
+  def fiveyearsofcppc
+  end
 end
