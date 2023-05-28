@@ -112,8 +112,8 @@
 }
 
 .mobile-news-card {
-  margin: 24px 10px;
-  width: calc(100%/6);
+  margin: 0px 10px;
+  width: calc(100%/5);
   border: none !important;
   border-radius: 0px !important;
   display: flex;
@@ -149,7 +149,7 @@
   align-items: center;
   justify-content: center;
   text-align: justify;
-  padding: 16px 0px !important;
+  padding: 32px 0px !important;
 
   h6 {
     font-family: 'Sofia Sans' !important;
