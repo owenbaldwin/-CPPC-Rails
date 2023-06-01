@@ -14,8 +14,21 @@
   }
 }
 
+
+
 .contact-text {
   p {
     text-align: center;
   }
+}
+
+.mobile-contact-text {
+  p {
+    text-align: justify;
+    // font-size: 20px;
+  }
+}
+
+.case-text-container {
+  height: 35%;
 }
