@@ -18,16 +18,16 @@
     "turbolinks": "^5.2.0",
     "webpack": "4"
   },
-  "engines": {
-    "node": "14.15.5"
-  },
   "version": "0.1.0",
   "scripts": {
     "build": "webpack"
   },
+  "engines": {
+    "node": "14.15.5"
+  },
   "devDependencies": {
     "webpack-cli": "4",
     "webpack-dev-server": "^4.11.1"
-  },
+  }
 
 }
