@@ -22,9 +22,7 @@
   "scripts": {
     "build": "webpack"
   },
-  "engines": {
-    "node": "14.15.5"
-  },
+
   "devDependencies": {
     "webpack-cli": "4",
     "webpack-dev-server": "^4.11.1"
