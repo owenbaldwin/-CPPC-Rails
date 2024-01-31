@@ -25,5 +25,7 @@ Rails.application.routes.draw do
   get :fiveyearsofcppc, to: 'pages#fiveyearsofcppc'
   get :wildarticle, to: 'pages#wildarticle'
   get :ecommerce, to: 'pages#ecommerce'
+  get :roamskintonecondoms, to: 'pages#roamskintonecondoms'
+
 
 end

@@ -59,4 +59,7 @@ class PagesController < ApplicationController
 
   def ecommerce
   end
+
+  def roamskintonecondoms
+  end
 end
