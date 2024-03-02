@@ -62,4 +62,7 @@ class PagesController < ApplicationController
 
   def roamskintonecondoms
   end
+
+  def akttestertubes
+  end
 end

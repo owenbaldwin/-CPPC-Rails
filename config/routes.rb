@@ -26,6 +26,7 @@ Rails.application.routes.draw do
   get :wildarticle, to: 'pages#wildarticle'
   get :ecommerce, to: 'pages#ecommerce'
   get :roamskintonecondoms, to: 'pages#roamskintonecondoms'
+  get :akttestertubes, to: 'pages#akttestertubes'
 
 
 end
